@@ -6,12 +6,7 @@
 #
 #
 
-# The macro PYBIND11_EMBEDDED_MODULE uses a try catch block
-if(MSVC)
-    set(LY_COMPILE_OPTIONS PRIVATE /EHsc)
-else()
-    set(LY_COMPILE_OPTIONS
-    PRIVATE
-        -fexceptions
-    )
-endif()
+set(LY_COMPILE_OPTIONS
+    PUBLIC
+        -fexceptions # The macro PYBIND11_EMBEDDED_MODULE uses a try catch block
+)
