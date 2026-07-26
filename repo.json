@@ -92,7 +92,7 @@
     "overlays": []
   },
   "source_control": {
-    "git": "https://github.com/accesspointmg/o3de-editorpythonbindings.git",
+    "git": "https://github.com/accesspointmg/org.o3de.repo.editorpythonbindings.git",
     "branch": "2.0.0"
   }
 }
